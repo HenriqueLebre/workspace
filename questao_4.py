@@ -11,7 +11,6 @@ print(f"Rendimento por período (%): {dividendo}",'%')
 print(f"Aporte a cada período: R$ {investimentoMensal}")
 print(f"Total de períodos: {qtdeMeses}")
 
-
 def rendimento (valorInicial, dividendo, qtdeMeses, investimentoMensal):
     
     porcentagem = dividendo / 100
@@ -33,7 +32,5 @@ def rendimento (valorInicial, dividendo, qtdeMeses, investimentoMensal):
     plt.xlabel("Período")
     plt.ylabel("Investimento")
     plt.plot(x,y)
-    plt.show()
-        
-                
+    plt.show()  
 rendimento(valorInicial, dividendo, qtdeMeses, investimentoMensal)
